@@ -13,6 +13,15 @@
     --text-color:#283618;
     --main-color:#bc6c25;
 }
+html::-webkit-scrollbar{
+    width:1.2rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: #bc6c25;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #283618;
+}
 section{
     padding:50px 10%;
 }
